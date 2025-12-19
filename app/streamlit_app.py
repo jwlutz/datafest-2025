@@ -24,7 +24,6 @@ import json
 
 st.set_page_config(
     page_title="Manhattan CRE Explorer",
-    page_icon="🏢",
     layout="wide"
 )
 
@@ -293,16 +292,16 @@ def main():
         st.markdown("### Map Legend")
         st.markdown("""
         **Pin Colors** = Safety Score
-        - 🔴 Red = Higher risk
-        - 🟡 Yellow = Moderate
-        - 🟢 Green = Safer
+        - Red = Higher risk
+        - Yellow = Moderate
+        - Green = Safer
 
         **Pin Icons** = Accessibility
-        - 🚇 Subway = Excellent transit
-        - 🚌 Bus = Good transit
-        - 🚂 Train = Moderate
-        - 🚲 Bicycle = Limited
-        - 🚶 Walking = Low access
+        - Subway = Excellent transit
+        - Bus = Good transit
+        - Train = Moderate
+        - Bicycle = Limited
+        - Walking = Low access
         """)
 
         if len(filtered) > 0:
