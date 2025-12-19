@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.eggs/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large data files - raw data too big for GitHub
+data/raw/Leases.csv
+data/raw/crime_manhattan_geo.csv
+
+# Temp folders
+manhattan-cre-analysis/
+.claude/
+
+# Keep processed data (smaller files, needed for app)
+# !data/processed/*.csv
+# !data/processed/*.json
+
+# Outputs - HTML maps can be regenerated
+outputs/*.html
+
+# R workspace files
+*.RData
+*.Rhistory
+
+# Logs
+*.log
