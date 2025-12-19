@@ -35,6 +35,10 @@ data/raw/crime_manhattan_geo.csv
 manhattan-cre-analysis/
 .claude/
 
+# Duplicate data in app folder (copies for local run)
+app/*.csv
+app/*.json
+
 # Keep processed data (smaller files, needed for app)
 # !data/processed/*.csv
 # !data/processed/*.json
